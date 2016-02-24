@@ -5,8 +5,8 @@
 [![paypal](https://img.shields.io/badge/paypal-donate-yellow.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UFAR5YN7G9ZQA)
 
 Install it from [npm](https://www.npmjs.com/package/steam-market-manager) or check out the
-[wiki](https://github.com/DoctorMcKay/node-steam-market-manager/wiki) for documentation.
+[wiki](https://github.com/netifriik/node-steam-market-manager/wiki) for documentation.
 
 # Support
 
-Report bugs on the [issue tracker](https://github.com/DoctorMcKay/node-steam-market-manager/issues)
+Report bugs on the [issue tracker](https://github.com/netifriik/node-steam-market-manager/issues)
