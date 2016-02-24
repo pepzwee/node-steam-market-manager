@@ -11,3 +11,13 @@ market.getItem({ "name": "StatTrak™ CZ75-Auto | The Fuschia Is Now (Well-Worn)
 
 	console.log('Item: ', item);
 });
+
+// The response would look something like this:
+/*
+Item: {
+	success: true,
+	lowest_price: 10.4,
+	volume: '1',
+	median_price: 6.99
+}
+*/
