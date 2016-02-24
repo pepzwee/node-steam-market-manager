@@ -1,0 +1,26 @@
+{
+  "name": "steam-market-manager",
+  "version": "1.0.0",
+  "description": "A simple module to query Steam Market Item prices",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Netifriik/node-steam-market-manager.git"
+  },
+  "keywords": [
+    "steam",
+    "market",
+    "prices"
+  ],
+  "author": "Kristjan Kirpu <kristjan@skins.ee>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Netifriik/node-steam-market-manager/issues"
+  },
+  "homepage": "https://github.com/Netifriik/node-steam-market-manager#readme",
+  "dependencies": {
+    "accounting": "^0.4.1",
+    "async": "^1.5.2",
+    "request": "^2.69.0"
+  }
+}
