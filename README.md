@@ -11,6 +11,22 @@ Install it from [npm](https://www.npmjs.com/package/steam-market-manager) or che
 
 I'm developing this module for [Skins.ee](https://www.skins.ee) CS:GO item trade-up website. Since I did not find any other module suitable for my needs I've decided to create my own first module for Node.js.
 
+# Module
+
+## Methods
+
+### getItem(options[, callback]) 
+
+Fetches item's price from Market.
+
+### getItems(options[, callback]) 
+
+Fetches multiple items prices from Market.
+
+### getAllItems(options[, callback]) 
+
+Fetches all items and their prices from Backpack.tf
+
 # Support
 
 Report bugs on the [issue tracker](https://github.com/netifriik/node-steam-market-manager/issues)
