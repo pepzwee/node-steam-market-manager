@@ -1,6 +1,6 @@
 {
   "name": "steam-market-manager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple module to query Steam Market Item prices. Also possible to create your own web api for prices using this.",
   "main": "./lib/index.js",
   "repository": {
