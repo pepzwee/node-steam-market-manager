@@ -11,7 +11,31 @@ Install it from [npm](https://www.npmjs.com/package/steam-market-manager) or che
 
 I'm developing this module for [Skins.ee](https://www.skins.ee) CS:GO item trade-up website. Since I did not find any other module suitable for my needs I've decided to create my own first module for Node.js.
 
+I will add features that I need. If you have some good ideas please let me know.
+
 # Module
+
+## Web API
+
+You can either call the methods below in a script or enable the WebApi.
+
+### Constructor options for WebApi
+
+* `enableWebApi` - Optional. Defaults to `false`, if `true` then it will enable the WebApi using Express.
+* `webApiPort` - Optional. Defaults to `1337`. This is the port the WebApi will be listening on.
+* `webApiSeperator` - Optional. Defaults to `!N!`. This seperates the items when calling `/items/:names`.
+
+### /item/:name
+
+Fetches item's price from Market using `getItem` method. Uses the default constructor values.
+
+### /items/:names
+
+Fetches multiple items prices from Market using `getItems` method. Uses the default constructor values.
+
+### /items/all
+
+Fetches all items and their prices from Backpack.tf using `getAllItems` method. Uses the default constructor values.
 
 ## Methods
 
