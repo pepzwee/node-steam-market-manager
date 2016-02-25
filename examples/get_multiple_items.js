@@ -24,7 +24,7 @@ Items:  [
 			volume: '1',
 			median_price: 4.78
 		} 
-    },
+	},
 	{
 		name: 'StatTrak™ CZ75-Auto | The Fuschia Is Now (Invalid Item)',
 		error: 'Steam is having issues. (Potential issue: No listings for this item.)' 
