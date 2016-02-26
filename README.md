@@ -39,17 +39,21 @@ Fetches all items and their prices from Backpack.tf using `getAllItems` method. 
 
 ## Methods
 
-### getItem(options[, callback]) 
+### getItem(options, callback) 
 
 Fetches item's price from Market.
 
-### getItems(options[, callback]) 
+### getItems(options, callback) 
 
 Fetches multiple items prices from Market.
 
-### getAllItems(options[, callback]) 
+### getAllItems(options, callback) 
 
 Fetches all items and their prices from Backpack.tf. Holds the fetched data for 300 seconds before making a new query since Backpack.tf API limit is 1 request per 300 seconds.
+
+### getInventory(options, callback)
+
+Gets the user inventory using `node-steamcommunity` and adds the option to append `priceData` to the inventory items.
 
 # Support
 
